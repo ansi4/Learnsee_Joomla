@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="1.7" type="template" client="site">
+    <name>blog3</name>
+    <creationDate>4.8.2011</creationDate>
+    <author>LineLab.org</author>
+    <authorEmail>info@linelab.org</authorEmail>
+    <authorUrl>http://www.linelab.org</authorUrl>
+    <copyright>Copyright 2011 - LineLab.org</copyright>
+  	<license>GNU General Public License version 3</license>
+  	<version>1.0</version>
+	<description>TPL_blog3_XML_DESCRIPTION</description>
+		<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>index.php</filename>
+		<filename>tools.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>templateDetails.xml</filename>		
+	</files>
+	<positions>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+    <position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+    <position>position-9</position>
+    <position>position-12</position>
+    <position>leftpozice</position>
+    <position>rightpozice</position>
+    <position>user1</position>
+    <position>user2</position>
+    <position>user3</position>
+		<position>footerload</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_blog3.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		<fieldset name="advanced">
+		<field name="templateWidth" type="text" default="960" 
+    label="TPL_BLOG3_WIDTH" description="TPL_BLOG3_WIDTH_DESC"> 
+    </field> 
+    <field name="leftWidth" type="text" default="260" 
+    label="TPL_LEFT_BLOG3_WIDTH" description="TPL_LEFT_BLOG3_WIDTH_DESC">
+    </field>
+    <field name="rightWidth" type="text" default="260" 
+    label="TPL_RIGHT_BLOG3_WIDTH" description="TPL_RIGHT_BLOG3_WIDTH_DESC">
+        </field>
+        <field name="sitetitle"  type="text" default="BLOG 3.0 Joomla Template"
+					label="TPL_BLOG3_FIELD_SITETITLE_LABEL"
+					description="TPL_BLOG3_FIELD_SITETITLE_DESC"
+					filter="string"></field>
+<field name="display_slideshow" type="list" default="0" label="TPL_BLOG3_DISPLAY_SLIDESHOW" description="TPL_BLOG3_DISPLAY_SLIDESHOW_DESC">
+<option value="0">TPL_BLOG3_NO</option>
+<option value="1">TPL_BLOG3_YES</option>
+</field>
+<field name="slideshow" type="media" default="templates/blog3/images/example.jpg" directoryimg="1" label="TPL_BLOG3_SLIDESHOW" description="TPL_BLOG3_SLIDESHOW_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

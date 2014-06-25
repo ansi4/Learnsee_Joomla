@@ -1,0 +1,7 @@
+#showcase .pad .readon span {margin-right: 5px;padding: 0 5px 0 15px;}
+.readon {cursor: pointer;}
+#showcase .ground {zoom: 1;padding-bottom: 0;}
+#leftcol, #rightcol, .module-title, .module-body, #mainmods, #mainmods2, #mainmods3, #nav, .breadcrumbs-pad, .article_row {zoom: 1;}
+p.buttonheading {display: inline;}
+#header .module {width: 500px;margin-left: 0;}
+#header .module ul {float: right;}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<extension version="1.6" type="template" client="site">
+
+    <name>Orangelab</name>
+
+    <creationDate>2.3.2011</creationDate>
+
+    <author>LineLab.org</author>
+
+    <authorEmail>info@linelab.org</authorEmail>
+
+    <authorUrl>http://www.linelab.org</authorUrl>
+
+    <copyright>Copyright 2011 - LineLab.org</copyright>
+
+  	<license>GNU General Public License version 2 or later. See LICENSE.txt</license>
+
+  	<version>1.0.1</version>
+
+	<description>TPL_ORANGELAB_XML_DESCRIPTION</description>
+
+	
+
+		<files>
+
+		<folder>css</folder>
+
+		<folder>images</folder>
+
+		<folder>javascript</folder>
+
+		<folder>html</folder>
+
+		<folder>language</folder>
+
+		<filename>index.php</filename>
+
+		<filename>tools.php</filename>
+
+		<filename>favicon.ico</filename>
+
+		<filename>template_thumbnail.png</filename>
+
+		<filename>template_preview.png</filename>
+
+		<filename>templateDetails.xml</filename>		
+
+	</files>
+
+	
+
+	<positions>
+
+		<position>search</position>
+
+		<position>left</position>
+
+		<position>right</position>
+
+		<position>topmenu</position>
+
+		<position>topsl</position>
+
+		<position>bannersload</position>
+
+		<position>breadcrumb</position>
+
+		<position>user1</position>
+
+		<position>user2</position>
+
+		<position>user3</position>
+
+		<position>footerload</position>
+
+		<position>debug</position>
+
+	</positions>
+
+	
+
+	<languages folder="language">
+
+		<language tag="en-GB">en-GB/en-GB.tpl_orangelab.ini</language>
+
+	</languages>
+
+	
+
+	<config>
+
+		<fields name="params">
+
+		<fieldset name="advanced">
+
+		<field name="templateWidth" type="text" default="960" 
+
+    label="TPL_ORANGELAB_WIDTH" description="TPL_ORANGELAB_WIDTH_DESC"> 
+
+    </field> 
+
+    <field name="leftWidth" type="text" default="200" 
+
+    label="TPL_LEFT_ORANGELAB_WIDTH" description="TPL_LEFT_ORANGELAB_WIDTH_DESC">
+
+    </field>
+
+    <field name="rightWidth" type="text" default="200" 
+
+    label="TPL_RIGHT_ORANGELAB_WIDTH" description="TPL_RIGHT_ORANGELAB_WIDTH_DESC">
+
+        </field>
+
+        <field name="sitetitle"  type="text" default="ORANGELAB"
+
+					label="TPL_ORANGELAB_FIELD_SITETITLE_LABEL"
+
+					description="TPL_ORANGELAB_FIELD_SITETITLE_DESC"
+
+					filter="string"></field>
+
+			</fieldset>
+
+		</fields>
+
+	</config>
+
+</extension>

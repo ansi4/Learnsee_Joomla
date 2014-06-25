@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<extension version="1.6" type="template" client="site">
+
+    <name>StormLab</name>
+
+    <creationDate>29.4.2011</creationDate>
+
+    <author>LineLab.org</author>
+
+    <authorEmail>info@linelab.org</authorEmail>
+
+    <authorUrl>http://www.linelab.org</authorUrl>
+
+    <copyright>Copyright 2011 - LineLab.org</copyright>
+
+  	<license>GNU General Public License version 2 or later.</license>
+
+  	<version>1.0.1</version>
+
+	<description>TPL_STORMLAB_XML_DESCRIPTION</description>
+
+	
+
+		<files>
+
+		<folder>css</folder>
+
+		<folder>images</folder>
+
+		<folder>html</folder>
+		
+		<folder>js</folder>
+
+		<folder>language</folder>
+
+		<filename>index.php</filename>
+
+		<filename>tools.php</filename>
+
+		<filename>favicon.ico</filename>
+
+		<filename>template_thumbnail.png</filename>
+
+		<filename>template_preview.png</filename>
+
+		<filename>templateDetails.xml</filename>		
+
+	</files>
+
+	
+
+	<positions>
+
+		<position>position-0</position>
+
+		<position>position-1</position>
+
+		<position>position-2</position>
+		
+		<position>position-3</position>
+		
+		<position>position-4</position>
+		
+		<position>position-5</position>
+
+		<position>position-6</position>
+
+		<position>position-7</position>
+		
+		<position>topnavi</position>
+
+    <position>user1</position>
+
+    <position>user2</position>
+
+    <position>user3</position>
+
+    <position>position-12</position>
+    
+    <position>bannersload</position>
+
+		<position>footerload</position>
+
+		<position>debug</position>
+
+	</positions>
+
+	
+
+	<languages folder="language">
+
+		<language tag="en-GB">en-GB/en-GB.tpl_stormlab.ini</language>
+
+	</languages>
+
+	
+
+	<config>
+
+		<fields name="params">
+
+		<fieldset name="advanced">
+
+		<field name="templateWidth" type="text" default="960" 
+
+    label="TPL_STORMLAB_WIDTH" description="TPL_STORMLAB_WIDTH_DESC"> 
+
+    </field> 
+
+    <field name="leftWidth" type="text" default="260" 
+
+    label="TPL_LEFT_STORMLAB_WIDTH" description="TPL_LEFT_STORMLAB_WIDTH_DESC">
+
+    </field>
+
+    <field name="rightWidth" type="text" default="260" 
+
+    label="TPL_RIGHT_STORMLAB_WIDTH" description="TPL_RIGHT_STORMLAB_WIDTH_DESC">
+
+        </field>
+
+        <field name="sitetitle"  type="text" default="StormLab Template"
+
+					label="TPL_STORMLAB_FIELD_SITETITLE_LABEL"
+
+					description="TPL_STORMLAB_FIELD_SITETITLE_DESC"
+
+					filter="string"></field>
+
+					<field name="display_slideshow" type="list" default="0" label="TPL_STORMLAB_DISPLAY_SLIDESHOW" description="TPL_STORMLAB_DISPLAY_SLIDESHOW_DESC">
+					<option value="0">TPL_STORMLAB_NO</option>
+					<option value="1">TPL_STORMLAB_YES</option>
+				</field>
+				<field name="slideshow" type="media"
+					default="templates/stormlab/images/example.jpg" directoryimg="1"
+					label="TPL_STORMLAB_SLIDESHOW" description="TPL_STORMLAB_SLIDESHOW_DESC" />
+			</fieldset>
+
+		</fields>
+
+	</config>
+
+</extension>
