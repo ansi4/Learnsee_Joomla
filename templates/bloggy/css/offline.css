@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+}
+
+.offline #aligner {
+  height: 20%;
+}
+
+.offline #header {
+  min-width: 90px;
+  max-width: 120px;
+  width: 100px;
+}
+
+.offline #logo {
+  width: 100%;
+}
+
+.offline #box-wrap {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.offline #main-content {  
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.offline #main-content form {
+  text-align: left;
+}
+
+.offline p {
+  margin-bottom: 0;
+}
+
+.offline input {
+  width: 187px;
+}
+
+.offline input.login {
+  margin-left: 13px;
+}
+
+.offline #remember{
+  width: auto;
+  vertical-align: middle;
+}
+
+.offline #footer-wrap {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20px;
+}

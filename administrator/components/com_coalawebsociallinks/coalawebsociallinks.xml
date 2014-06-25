@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+    <name>COM_COALAWEBSOCIALLINKS</name>
+    <creationDate>2014-05-29</creationDate>
+    <author>Steven Palmer</author>
+    <authorEmail>support@coalaweb.com</authorEmail>
+    <authorUrl>http://coalaweb.com</authorUrl>
+    <copyright>Copyright (c) 2014 Steven Palmer All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>0.1.7</version>
+    <description>COM_COALAWEBSOCIALLINKS_DESCRIPTION</description>
+ 
+    <media destination="coalawebsocial" folder="media">
+        <filename>index.html</filename>
+        <folder>components</folder>
+    </media>
+    
+    <administration>
+        <menu img ="../media/coalawebsocial/components/sociallinks/images/icon-16-cw-menu.png">COM_COALAWEBSOCIALLINKS</menu>
+        <files folder="admin">
+            <!-- Admin Main File Copy Section -->
+            <filename>index.html</filename>
+            <filename>config.xml</filename>
+            <filename>access.xml</filename>
+            <filename>coalawebsociallinks.php</filename>
+            <filename>controller.php</filename>
+            <filename>version.php</filename>
+            <folder>assets</folder>
+            <folder>controllers</folder>
+            <folder>helpers</folder>
+            <folder>language</folder>
+            <folder>models</folder>
+            <folder>views</folder>
+        </files>
+ 
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_coalawebsociallinks.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_coalawebsociallinks.sys.ini</language>
+        </languages>
+    </administration>
+ 
+    <!-- Update Server -->
+    <updateservers>
+        <server type="extension" priority="1" name="CoalaWeb Social Links Update">http://cdn.coalaweb.com/updates/cw-sociallinks-core.xml</server>
+    </updateservers>
+        
+    <!-- Installation / Uninstallation Script File -->
+    <scriptfile>script.coalawebsociallinks.php</scriptfile>
+        
+</extension>

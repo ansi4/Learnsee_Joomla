@@ -1,0 +1,69 @@
+<?php
+defined('_JEXEC') or die('Restricted access');
+/**
+ * @package             Joomla
+ * @subpackage          CoalaWeb Social Links Component
+ * @author              Steven Palmer
+ * @author url          http://coalaweb.com
+ * @author email        support@coalaweb.com
+ * @license             GNU/GPL, see /assets/en-GB.license.txt
+ * @copyright           Copyright (c) 2014 Steven Palmer All rights reserved.
+ *
+ * CoalaWeb Social Links is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+?>
+
+Version 0.1.7 May 2014
+- -> Removed Liveupdate and moved back to Joomla native updater.
+- -> Removed obsolete quick icon module and plugin.
+^ -> Updated General options to included new Tabs module.
+^ -> Changed update setting to only included an update id for Pro users.
+^ -> Overhauled install script.
+
+Version 0.1.6 March 2014
++ -> Integrated URL Shortening system.
+^ -> Updated language files.
+^ -> Overhauled icon theme system.
+
+Version 0.1.5 January 2014
++ -> Added CoalaWeb Panel plugin options.
+^ -> Updated CoalaWeb Social Links plugin options.
+^ -> Updated language files.
+^ -> Tweaks to css.
+^ -> Updated install script.
+
+Version 0.1.4 November 2013
+^ -> Install script updates.
+- -> Removed version information from language files.
+
+Version 0.1.3 October 2013
+^ -> Tweaks to language files and method of loading.
+
+Version 0.1.2 September 2013
++ -> Added CoalaWeb Open Graph plugin options.
+^ -> Tweaks to css.
+^ -> Updated install script.
+
+Version 0.1.1 July 2013
+
+Version 0.1.0 June 2013
+! Integrated into the CoalaWeb Social Links extension.
+
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+- -> Removed
+! -> Note
